@@ -4,7 +4,7 @@
 
 A curated, cross-disciplinary reading map for **biological clustering**, **hypergraph clustering**, and **LLM-enhanced clustering**.
 
-> **Snapshot:** 2026-09-02 · **Catalog:** 27 papers · [中文说明](README_zh-CN.md)
+> **Snapshot:** 2026-09-02 · **Catalog:** 51 papers · [中文说明](README_zh-CN.md)
 
 ## Topics and tags
 
@@ -32,6 +32,11 @@ Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological c
 - `[LLM]` **MASK** — Minority-aware Semantic Alignment via Knowledge Enhancement for Long-tailed Graph Clustering — Yiwei Fu, Chunchun Chen, Yuxing Zhang, Weizhi Zhang, Guanjie Zheng, Wei Ye, Xiao Luo, Philip S. Yu, and Minghua Deng. *CIKM*. [Code](https://github.com/fuyw-aisw/MASK)
 - `[LLM]` [**DyG-RoLLM** — Node Role-Guided LLMs for Dynamic Graph Clustering](https://doi.org/10.1145/3774904.3792704) — Dongyuan Li, Ying Zhang, Yaozu Wu, and Renhe Jiang. *WWW*. [Paper](https://doi.org/10.1145/3774904.3792704) · [Code](https://github.com/Clearloveyuan/DyG-RoLLM)
 - `[BIO]` [**scMUSCLE: Multi-scale Subspace Contrastive Learning for Single-cell RNA-seq Data Clustering**](https://doi.org/10.1093/bib/bbag005) — Yun Ding, Yangzhen Jiang, Jing Wang, Dayu Tan, Yansen Su, and Chunhou Zheng. *Briefings in Bioinformatics*. [Paper](https://doi.org/10.1093/bib/bbag005) · [Code](https://github.com/GodIsGad/scMUSCLE)
+- `[LLM]` [**ESMC: MLLM-Based Embedding Selection for Explainable Multiple Clustering**](https://ojs.aaai.org/index.php/AAAI/article/view/39867) — Xinyue Wang, Yuheng Jia, Hui Liu, and Junhui Hou. *AAAI*. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/39867) · [Code](https://github.com/JCSTARS/Embedding-Selective-Multiple-Clustering)
+- `[LLM]` [**Optimized Algorithms for Text Clustering with LLM-Generated Constraints**](https://arxiv.org/abs/2601.11118) — Chaoqi Jia, Weihong Wu, Longkun Guo, Zhigang Lu, Chao Chen, and Kok-Leong Ong. *AAAI*. [Paper](https://arxiv.org/abs/2601.11118) · [Code](https://github.com/weihong-wu/LSCK-HC)
+- `[LLM]` [**LLM-CER** — In-context Clustering-based Entity Resolution with Large Language Models: A Design Space Exploration](https://doi.org/10.1145/3749170) — Jiajie Fu, Haitong Tang, Arijit Khan, Sharad Mehrotra, Xiangyu Ke, and Yunjun Gao. *SIGMOD*. [Paper](https://doi.org/10.1145/3749170)
+- `[LLM]` [**NILC: Discovering New Intents with LLM-assisted Clustering**](https://doi.org/10.1145/3773966.3777979) — Hongtao Wang, Renchi Yang, and Wenqing Lin. *WSDM*. [Paper](https://doi.org/10.1145/3773966.3777979)
+- `[LLM]` [**ComGPT: Detecting Local Community Structure with Large Language Models**](https://arxiv.org/abs/2408.06658) — Li Ni, Haowen Shen, Lin Mu, Yiwen Zhang, and Wenjian Luo. *IEEE TCSS*. [Paper](https://arxiv.org/abs/2408.06658)
 
 ### 2025
 
@@ -49,6 +54,23 @@ Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological c
 - `[LLM]` [**D2CS: Documents Graph Clustering Using LLM Supervision**](https://aclanthology.org/2025.findings-emnlp.1283/) — Yoel Ashkenazi, Etzion Harari, Regev Yehezkel Imra, Naphtali Abudarham, Dekel Cohen, and Yoram Louzoun. *Findings of EMNLP*. [Paper](https://aclanthology.org/2025.findings-emnlp.1283/) · [Code](https://github.com/D2CS-sub/D2CS)
 - `[LLM]` [**Dial-In LLM: Human-Aligned LLM-in-the-Loop Intent Clustering for Customer Service Dialogues**](https://aclanthology.org/2025.emnlp-main.300/) — Mengze Hong, Wailing Ng, Chen Jason Zhang, Yuanfeng Song, and Di Jiang. *EMNLP*. [Paper](https://aclanthology.org/2025.emnlp-main.300/)
 - `[LLM]` [**Controllable Clustering with LLM-Driven Embeddings**](https://aclanthology.org/2025.emnlp-industry.48/) — Kerria Pang-Naylor, Shivani Manivasagan, Aitong Zhong, Mehak Garg, Nicholas Mondello, Blake Buckner, Jonathan P. Chang, Khyati Mahajan, Masoud Hashemi, and Fabio Casati. *EMNLP Industry Track*. [Paper](https://aclanthology.org/2025.emnlp-industry.48/)
+- `[HG+LLM]` [**LLMCom** — Semi-supervised Graph Convolutional Community Detection Empowered by Large Language Models](https://www.sciencedirect.com/science/article/abs/pii/S0950705125012778) — Shan Yang, Xiaoling Huang, Shan Ji, Cheng Zhang, and Shuai Zhang. *Knowledge-Based Systems*. [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705125012778)
+- `[LLM]` [**Text-attributed Community Detection in Complex Networks through LLMs and GNNs: A Powerful Fusion of Language and Graphs**](https://www.sciencedirect.com/science/article/pii/S0925231225012457) — Sruthi K. S., A. Sreekumar, and Kannan Balakrishnan. *Neurocomputing*. [Paper](https://www.sciencedirect.com/science/article/pii/S0925231225012457)
+- `[LLM]` [**LLM-DAMVC: A Large Language Model Assisted Dynamic Agent for Multi-View Clustering**](https://proceedings.nips.cc/paper_files/paper/2025/hash/ad48f017e6c3d474caf511208e600459-Abstract-Conference.html) — Haiming Xu and Qianqian Wang. *NeurIPS*. [Paper](https://proceedings.nips.cc/paper_files/paper/2025/hash/ad48f017e6c3d474caf511208e600459-Abstract-Conference.html)
+- `[LLM]` [**Agent-Centric Personalized Multiple Clustering with Multi-Modal LLMs**](https://arxiv.org/abs/2503.22241) — Ziye Chen, Yiqun Duan, Riheng Zhu, Zhenbang Sun, and Mingming Gong. *arXiv*. [Paper](https://arxiv.org/abs/2503.22241)
+- `[LLM]` [**Text Clustering with Large Language Model Embeddings**](https://doi.org/10.1016/j.ijcce.2024.11.004) — Alina Petukhova, João P. Matos-Carvalho, and Nuno Fachada. *International Journal of Cognitive Computing in Engineering*. [Paper](https://doi.org/10.1016/j.ijcce.2024.11.004)
+- `[LLM]` [**Unsupervised Text Clustering with Large Language Models**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5865188) — Leonid Kuligin, Jacqueline Lammert, Florence Heinkelein, Keno Bressem, Martin Boeker, and Maximilian Tschochohei. *SSRN*. [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5865188)
+- `[LLM]` [**LLM-MemCluster: Empowering Large Language Models with Dynamic Memory for Text Clustering**](https://arxiv.org/abs/2511.15424) — Yuanjie Zhu, Liangwei Yang, Ke Xu, Weizhi Zhang, Zihe Song, Jindong Wang, and Philip S. Yu. *arXiv*. [Paper](https://arxiv.org/abs/2511.15424)
+- `[LLM]` [**GC** — Information-Theoretic Generative Clustering of Documents](https://ojs.aaai.org/index.php/AAAI/article/view/33802) — Xin Du and Kumiko Tanaka-Ishii. *AAAI*. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/33802) · [Code](https://github.com/kduxin/lmgc)
+- `[LLM]` [**LiSA** — LLM-Guided Semantic-Aware Clustering for Topic Modeling](https://aclanthology.org/2025.acl-long.902/) — Jianghan Liu, Ziyu Shang, Wenjun Ke, Peng Wang, Zhizhao Luo, Jiajun Liu, Guozheng Li, and Yining Li. *ACL*. [Paper](https://aclanthology.org/2025.acl-long.902/) · [Code](https://github.com/ljh986/LiSA)
+- `[LLM]` [**ZeroDL: Zero-shot Distribution Learning for Text Clustering via Large Language Models**](https://aclanthology.org/2025.findings-acl.1005/) — Hwiyeol Jo, Hyunwoo Lee, Kang Min Yoo, and Taiwoo Park. *Findings of ACL*. [Paper](https://aclanthology.org/2025.findings-acl.1005/)
+- `[LLM]` [**Cequel: Cost-Effective Querying of Large Language Models for Text Clustering**](https://doi.org/10.1145/3746252.3761074) — Hongtao Wang, Taiyan Zhang, Renchi Yang, and Jianliang Xu. *CIKM*. [Paper](https://doi.org/10.1145/3746252.3761074)
+- `[LLM]` [**Context-Aware Hierarchical Taxonomy Generation for Scientific Papers via LLM-Guided Multi-Aspect Clustering**](https://aclanthology.org/2025.emnlp-main.788/) — Kun Zhu, Lizi Liao, Yuxuan Gu, Lei Huang, Xiaocheng Feng, and Bing Qin. *EMNLP*. [Paper](https://aclanthology.org/2025.emnlp-main.788/)
+- `[LLM]` [**ClusterFusion: Hybrid Clustering with Embedding Guidance and LLM Adaptation**](https://arxiv.org/abs/2512.04350) — Yiming Xu, Yuan Yuan, Vijay Viswanathan, and Graham Neubig. *arXiv*. [Paper](https://arxiv.org/abs/2512.04350)
+- `[LLM]` [**Text Clustering as Classification with LLMs**](https://doi.org/10.1145/3767695.3769519) — Chen Huang and Guoxiu He. *SIGIR-AP*. [Paper](https://doi.org/10.1145/3767695.3769519) · [Code](https://github.com/ECNU-Text-Computing/Text-Clustering-via-LLM)
+- `[LLM]` [**CS-Agent: LLM-based Community Search via Dual-agent Collaboration**](https://doi.org/10.1145/3746252.3761335) — Jiahao Hua, Long Yuan, Qingshuai Feng, Qiang Fan, and Shan Huang. *CIKM*. [Paper](https://doi.org/10.1145/3746252.3761335)
+- `[LLM]` [**CommLLM** — LLMs Between the Nodes: Community Discovery Beyond Vectors](https://arxiv.org/abs/2507.22955) — Ekta Gujral and Apurva Sinha. *CSIT*. [Paper](https://arxiv.org/abs/2507.22955)
+- `[LLM]` [**ICC** — In-Context Clustering with Large Language Models](https://arxiv.org/abs/2510.08466) — Ying Wang, Mengye Ren, and Andrew Gordon Wilson. *arXiv*. [Paper](https://arxiv.org/abs/2510.08466) · [Code](https://agenticlearning.ai/icc/)
 
 ### 2024
 
@@ -56,6 +78,8 @@ Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological c
 - `[BIO]` [**scMLC: A Multi-Level Clustering Method for Single-Cell RNA-seq Data**](https://doi.org/10.1093/bib/bbae101) — Yuxuan Chen, Ruiqing Zheng, Jin Liu, and Min Li. *Briefings in Bioinformatics*. [Paper](https://doi.org/10.1093/bib/bbae101)
 - `[LLM]` [**Large Language Models Enable Few-Shot Clustering**](https://aclanthology.org/2024.tacl-1.18/) — Vijay Viswanathan, Kiril Gashteovski, Carolin Lawrence, Tongshuang Wu, and Graham Neubig. *TACL*. [Paper](https://aclanthology.org/2024.tacl-1.18/) · [Code](https://github.com/viswavi/few-shot-clustering)
 - `[LLM]` [**GCLR** — Large Language Model Guided Graph Clustering](https://openreview.net/forum?id=CLyhlb5DG5) — Puja Trivedi, Nurendra Choudhary, Eddie Huang, Vassilis N. Ioannidis, Karthik Subbian, and Danai Koutra. *LoG*. [Paper](https://openreview.net/forum?id=CLyhlb5DG5)
+- `[LLM]` [**LLMEdgeRefine: Enhancing Text Clustering with LLM-Based Boundary Point Refinement**](https://aclanthology.org/2024.emnlp-main.1025/) — Zijin Feng, Luyang Lin, Lingzhi Wang, Hong Cheng, and Kam-Fai Wong. *EMNLP*. [Paper](https://aclanthology.org/2024.emnlp-main.1025/)
+- `[LLM]` [**Improving Hierarchical Text Clustering with LLM-guided Multi-view Cluster Representation**](https://aclanthology.org/2024.emnlp-industry.54/) — Anup Pattnaik, Cijo George, Rishabh Kumar Tripathi, Sasanka Vutla, and Jithendra Vepa. *EMNLP Industry Track*. [Paper](https://aclanthology.org/2024.emnlp-industry.54/)
 
 ### 2023
 

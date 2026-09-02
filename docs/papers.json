@@ -83,6 +83,81 @@
       "note": "Combines multi-scale subspace learning and contrastive objectives for scRNA-seq clustering."
     },
     {
+      "id": "esmc-2026",
+      "title": "ESMC: MLLM-Based Embedding Selection for Explainable Multiple Clustering",
+      "acronym": "ESMC",
+      "authors": "Xinyue Wang, Yuheng Jia, Hui Liu, and Junhui Hou",
+      "year": 2026,
+      "venue": "AAAI",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39867",
+      "code": "https://github.com/JCSTARS/Embedding-Selective-Multiple-Clustering",
+      "status": "peer-reviewed",
+      "note": "Selects feature-specific hidden states from multimodal LLMs for user-defined explainable clustering."
+    },
+    {
+      "id": "llm-constraints-2026",
+      "title": "Optimized Algorithms for Text Clustering with LLM-Generated Constraints",
+      "acronym": "",
+      "authors": "Chaoqi Jia, Weihong Wu, Longkun Guo, Zhigang Lu, Chao Chen, and Kok-Leong Ong",
+      "year": 2026,
+      "venue": "AAAI",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://arxiv.org/abs/2601.11118",
+      "code": "https://github.com/weihong-wu/LSCK-HC",
+      "status": "peer-reviewed",
+      "note": "Generates set-based constraints with LLMs and optimizes a noise-tolerant constrained clustering algorithm."
+    },
+    {
+      "id": "llm-cer-2026",
+      "title": "In-context Clustering-based Entity Resolution with Large Language Models: A Design Space Exploration",
+      "acronym": "LLM-CER",
+      "authors": "Jiajie Fu, Haitong Tang, Arijit Khan, Sharad Mehrotra, Xiangyu Ke, and Yunjun Gao",
+      "year": 2026,
+      "venue": "SIGMOD",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://doi.org/10.1145/3749170",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Uses direct in-context clustering to resolve entities while reducing pairwise comparisons and LLM calls."
+    },
+    {
+      "id": "nilc-2026",
+      "title": "NILC: Discovering New Intents with LLM-assisted Clustering",
+      "acronym": "NILC",
+      "authors": "Hongtao Wang, Renchi Yang, and Wenqing Lin",
+      "year": 2026,
+      "venue": "WSDM",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://doi.org/10.1145/3773966.3777979",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Refines cluster centroids and ambiguous utterance embeddings with LLM guidance for new-intent discovery."
+    },
+    {
+      "id": "comgpt-2026",
+      "title": "ComGPT: Detecting Local Community Structure with Large Language Models",
+      "acronym": "ComGPT",
+      "authors": "Li Ni, Haowen Shen, Lin Mu, Yiwen Zhang, and Wenjian Luo",
+      "year": 2026,
+      "venue": "IEEE TCSS",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://arxiv.org/abs/2408.06658",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Guides seed expansion with GPT and community-aware graph verbalization for local community detection."
+    },
+    {
       "id": "ahrc-2025",
       "title": "On Graph Representation for Attributed Hypergraph Clustering",
       "acronym": "AHRC",
@@ -295,6 +370,262 @@
       "note": "Steers embedding-based clustering with natural-language instructions and LLM-generated signals."
     },
     {
+      "id": "llmcom-2025",
+      "title": "Semi-supervised Graph Convolutional Community Detection Empowered by Large Language Models",
+      "acronym": "LLMCom",
+      "authors": "Shan Yang, Xiaoling Huang, Shan Ji, Cheng Zhang, and Shuai Zhang",
+      "year": 2025,
+      "venue": "Knowledge-Based Systems",
+      "tags": [
+        "HG",
+        "LLM"
+      ],
+      "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0950705125012778",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Aligns LLM semantics with graph features and uses graph and hypergraph decoders for overlapping and non-overlapping communities."
+    },
+    {
+      "id": "tag-community-detection-2025",
+      "title": "Text-attributed Community Detection in Complex Networks through LLMs and GNNs: A Powerful Fusion of Language and Graphs",
+      "acronym": "",
+      "authors": "Sruthi K. S., A. Sreekumar, and Kannan Balakrishnan",
+      "year": 2025,
+      "venue": "Neurocomputing",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://www.sciencedirect.com/science/article/pii/S0925231225012457",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Combines text embeddings from language models with graph neural networks for community detection in heterogeneous networks."
+    },
+    {
+      "id": "llm-damvc-2025",
+      "title": "LLM-DAMVC: A Large Language Model Assisted Dynamic Agent for Multi-View Clustering",
+      "acronym": "LLM-DAMVC",
+      "authors": "Haiming Xu and Qianqian Wang",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://proceedings.nips.cc/paper_files/paper/2025/hash/ad48f017e6c3d474caf511208e600459-Abstract-Conference.html",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Uses an LLM-assisted agent to adapt fusion weights across views for multi-view clustering."
+    },
+    {
+      "id": "agent-centric-pmc-2025",
+      "title": "Agent-Centric Personalized Multiple Clustering with Multi-Modal LLMs",
+      "acronym": "",
+      "authors": "Ziye Chen, Yiqun Duan, Riheng Zhu, Zhenbang Sun, and Mingming Gong",
+      "year": 2025,
+      "venue": "arXiv",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://arxiv.org/abs/2503.22241",
+      "code": "",
+      "status": "preprint",
+      "note": "Uses multimodal LLM agents to traverse a relational graph and produce user-conditioned image clusters."
+    },
+    {
+      "id": "llm-embedding-text-clustering-2025",
+      "title": "Text Clustering with Large Language Model Embeddings",
+      "acronym": "",
+      "authors": "Alina Petukhova, João P. Matos-Carvalho, and Nuno Fachada",
+      "year": 2025,
+      "venue": "International Journal of Cognitive Computing in Engineering",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://doi.org/10.1016/j.ijcce.2024.11.004",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Benchmarks embeddings associated with large language models across text clustering algorithms and datasets."
+    },
+    {
+      "id": "unsupervised-llm-text-clustering-2025",
+      "title": "Unsupervised Text Clustering with Large Language Models",
+      "acronym": "",
+      "authors": "Leonid Kuligin, Jacqueline Lammert, Florence Heinkelein, Keno Bressem, Martin Boeker, and Maximilian Tschochohei",
+      "year": 2025,
+      "venue": "SSRN",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5865188",
+      "code": "",
+      "status": "preprint",
+      "note": "Represents clusters with evolving textual descriptions and assigns or merges texts directly with an LLM."
+    },
+    {
+      "id": "llm-memcluster-2025",
+      "title": "LLM-MemCluster: Empowering Large Language Models with Dynamic Memory for Text Clustering",
+      "acronym": "LLM-MemCluster",
+      "authors": "Yuanjie Zhu, Liangwei Yang, Ke Xu, Weizhi Zhang, Zihe Song, Jindong Wang, and Philip S. Yu",
+      "year": 2025,
+      "venue": "arXiv",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://arxiv.org/abs/2511.15424",
+      "code": "",
+      "status": "preprint",
+      "note": "Adds dynamic memory and dual prompts for stateful, end-to-end LLM-native text clustering."
+    },
+    {
+      "id": "generative-document-clustering-2025",
+      "title": "Information-Theoretic Generative Clustering of Documents",
+      "acronym": "GC",
+      "authors": "Xin Du and Kumiko Tanaka-Ishii",
+      "year": 2025,
+      "venue": "AAAI",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/33802",
+      "code": "https://github.com/kduxin/lmgc",
+      "status": "peer-reviewed",
+      "note": "Clusters LLM-generated document representations with an information-theoretic similarity and importance sampling."
+    },
+    {
+      "id": "lisa-2025",
+      "title": "LLM-Guided Semantic-Aware Clustering for Topic Modeling",
+      "acronym": "LiSA",
+      "authors": "Jianghan Liu, Ziyu Shang, Wenjun Ke, Peng Wang, Zhizhao Luo, Jiajun Liu, Guozheng Li, and Yining Li",
+      "year": 2025,
+      "venue": "ACL",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://aclanthology.org/2025.acl-long.902/",
+      "code": "https://github.com/ljh986/LiSA",
+      "status": "peer-reviewed",
+      "note": "Combines LLM-proposed topic semantics with document clustering for semi-supervised topic modeling."
+    },
+    {
+      "id": "zerodl-2025",
+      "title": "ZeroDL: Zero-shot Distribution Learning for Text Clustering via Large Language Models",
+      "acronym": "ZeroDL",
+      "authors": "Hwiyeol Jo, Hyunwoo Lee, Kang Min Yoo, and Taiwoo Park",
+      "year": 2025,
+      "venue": "Findings of ACL",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://aclanthology.org/2025.findings-acl.1005/",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Aggregates open-ended LLM predictions into task context for zero-shot text-to-text clustering."
+    },
+    {
+      "id": "cequel-2025",
+      "title": "Cequel: Cost-Effective Querying of Large Language Models for Text Clustering",
+      "acronym": "Cequel",
+      "authors": "Hongtao Wang, Taiyan Zhang, Renchi Yang, and Jianliang Xu",
+      "year": 2025,
+      "venue": "CIKM",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://doi.org/10.1145/3746252.3761074",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Selectively queries LLMs for informative constraints under a budget and applies weighted constrained clustering."
+    },
+    {
+      "id": "taxonomy-clustering-2025",
+      "title": "Context-Aware Hierarchical Taxonomy Generation for Scientific Papers via LLM-Guided Multi-Aspect Clustering",
+      "acronym": "",
+      "authors": "Kun Zhu, Lizi Liao, Yuxuan Gu, Lei Huang, Xiaocheng Feng, and Bing Qin",
+      "year": 2025,
+      "venue": "EMNLP",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://aclanthology.org/2025.emnlp-main.788/",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Uses LLM-generated aspect representations and dynamic clustering to construct scientific-paper taxonomies."
+    },
+    {
+      "id": "clusterfusion-2025",
+      "title": "ClusterFusion: Hybrid Clustering with Embedding Guidance and LLM Adaptation",
+      "acronym": "ClusterFusion",
+      "authors": "Yiming Xu, Yuan Yuan, Vijay Viswanathan, and Graham Neubig",
+      "year": 2025,
+      "venue": "arXiv",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://arxiv.org/abs/2512.04350",
+      "code": "",
+      "status": "preprint",
+      "note": "Places an LLM at the center of text clustering while using embeddings for subset partitioning and guidance."
+    },
+    {
+      "id": "text-clustering-classification-2025",
+      "title": "Text Clustering as Classification with LLMs",
+      "acronym": "",
+      "authors": "Chen Huang and Guoxiu He",
+      "year": 2025,
+      "venue": "SIGIR-AP",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://doi.org/10.1145/3767695.3769519",
+      "code": "https://github.com/ECNU-Text-Computing/Text-Clustering-via-LLM",
+      "status": "peer-reviewed",
+      "note": "Prompts an LLM to generate, merge, and assign cluster labels without training a separate embedding model."
+    },
+    {
+      "id": "cs-agent-2025",
+      "title": "CS-Agent: LLM-based Community Search via Dual-agent Collaboration",
+      "acronym": "CS-Agent",
+      "authors": "Jiahao Hua, Long Yuan, Qingshuai Feng, Qiang Fan, and Shan Huang",
+      "year": 2025,
+      "venue": "CIKM",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://doi.org/10.1145/3746252.3761335",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Uses solver and validator LLM agents to iteratively refine local community-search results."
+    },
+    {
+      "id": "commllm-2025",
+      "title": "LLMs Between the Nodes: Community Discovery Beyond Vectors",
+      "acronym": "CommLLM",
+      "authors": "Ekta Gujral and Apurva Sinha",
+      "year": 2025,
+      "venue": "CSIT",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://arxiv.org/abs/2507.22955",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Verbalizes social graphs and prompts GPT-4o to infer community assignments directly."
+    },
+    {
+      "id": "in-context-clustering-2025",
+      "title": "In-Context Clustering with Large Language Models",
+      "acronym": "ICC",
+      "authors": "Ying Wang, Mengye Ren, and Andrew Gordon Wilson",
+      "year": 2025,
+      "venue": "arXiv",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://arxiv.org/abs/2510.08466",
+      "code": "https://agenticlearning.ai/icc/",
+      "status": "preprint",
+      "note": "Extends in-context learning to zero-shot and text-conditioned clustering across numeric, text, and image data."
+    },
+    {
       "id": "spatial-hgnn-2024",
       "title": "Hypergraph Neural Networks Reveal Spatial Domains from Single-Cell Transcriptomics Data",
       "acronym": "",
@@ -354,6 +685,36 @@
       "code": "",
       "status": "peer-reviewed",
       "note": "Queries an LLM selectively and uses noisy feedback to refine text-attributed graph clusters."
+    },
+    {
+      "id": "llmedgerefine-2024",
+      "title": "LLMEdgeRefine: Enhancing Text Clustering with LLM-Based Boundary Point Refinement",
+      "acronym": "LLMEdgeRefine",
+      "authors": "Zijin Feng, Luyang Lin, Lingzhi Wang, Hong Cheng, and Kam-Fai Wong",
+      "year": 2024,
+      "venue": "EMNLP",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://aclanthology.org/2024.emnlp-main.1025/",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Creates super-points and iteratively uses LLM feedback to refine boundary samples and cluster coherence."
+    },
+    {
+      "id": "hierarchical-contact-clustering-2024",
+      "title": "Improving Hierarchical Text Clustering with LLM-guided Multi-view Cluster Representation",
+      "acronym": "",
+      "authors": "Anup Pattnaik, Cijo George, Rishabh Kumar Tripathi, Sasanka Vutla, and Jithendra Vepa",
+      "year": 2024,
+      "venue": "EMNLP Industry Track",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://aclanthology.org/2024.emnlp-industry.54/",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Uses LLM-generated names, descriptions, and centroids as complementary views for hierarchical text clustering."
     },
     {
       "id": "clusterllm-2023",
