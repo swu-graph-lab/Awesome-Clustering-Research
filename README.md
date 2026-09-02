@@ -18,7 +18,7 @@ Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological c
 
 ## Browse the collection
 
-- Serve the repository locally and open the [filterable publications page](docs/index.html), or enable GitHub Pages from the `docs/` folder after publishing the repository.
+- Open the [live filterable publications page](https://liangqi-l.github.io/Awesome-Clustering-Research/), or serve `docs/` locally when developing the site.
 - Filter the canonical [machine-readable catalog](data/papers.json) by year, tag, venue, or code availability.
 - Papers below are grouped by year in reverse chronological order. Topic is expressed by tags rather than mutually exclusive sections.
 

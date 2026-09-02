@@ -22,7 +22,7 @@
 ## 使用方式
 
 - 在主 [README](README.md) 中按年份阅读；
-- 打开 [可筛选论文页](docs/index.html)，按 `BIO / HG / LLM` 或关键词筛选；
+- 打开 [公开论文页面](https://liangqi-l.github.io/Awesome-Clustering-Research/)，按 `BIO / HG / LLM` 或关键词筛选；
 - 在 [结构化数据](data/papers.json) 中按年份、标签、会议或代码状态检索；
 - 新增论文时遵循 [贡献指南](CONTRIBUTING.md)，不要直接手改 README 中的论文列表。
 
