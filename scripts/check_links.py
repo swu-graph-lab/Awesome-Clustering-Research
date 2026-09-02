@@ -16,7 +16,7 @@ CATALOG = ROOT / "data" / "papers.json"
 
 
 def check(url: str) -> tuple[str, int | str]:
-    request = Request(url, headers={"User-Agent": "LLM4GM-link-checker/1.0"})
+    request = Request(url, headers={"User-Agent": "Awesome-Clustering-Research-link-checker/1.0"})
     for attempt in range(2):
         try:
             with urlopen(request, timeout=20) as response:

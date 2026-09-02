@@ -1,32 +1,37 @@
-# Contributing to Awesome LLM4GM
+# Contributing
 
-Thank you for helping keep the list accurate and useful.
+Thank you for helping maintain the group reading map.
 
-## Before adding a paper
+## Inclusion checklist
 
-Confirm that the work passes the inclusion test in [`docs/TAXONOMY.md`](docs/TAXONOMY.md). In particular, a paper that merely mentions graphs and LLMs is not enough: the LLM must materially participate in a graph-mining method or benchmark.
+Before adding a paper, confirm that:
 
-## Add or update a record
+- clustering is a central task or contribution;
+- at least one of `BIO`, `HG`, or `LLM` applies under `docs/TAXONOMY.md`;
+- the title, authors, year, venue, and publication status match a primary paper page;
+- the code link is official or author-maintained;
+- the paper is not already present under a different title or preprint version.
 
-1. Edit `data/papers.json`; do not hand-edit generated tables in `README.md`.
-2. Use the paper's exact title and a stable abstract/landing page when possible.
-3. Link only official or author-maintained code. Leave `code` as an empty string when uncertain.
-4. Use all applicable `tasks` and `roles`, with the primary display task first.
-5. Add a short factual `note` describing the method's contribution, not a promotional claim.
-6. Run:
+## Add a record
+
+Edit `data/papers.json`. Preserve reverse chronological year order and the field order shown in existing records. For multiple tags, use canonical order: `BIO`, `HG`, `LLM`.
+
+Use a short note that explains why the paper belongs in this repository. Do not paste an abstract.
+
+Then run:
 
 ```bash
 python scripts/validate_catalog.py
 python scripts/build_catalog.py
+python scripts/check_links.py
 ```
 
-## Pull-request checklist
+Commit the canonical data and generated `README.md` and `docs/papers.json` together.
 
-- [ ] The entry is in scope.
-- [ ] Title, year, venue, and publication status were checked against a paper or publisher page.
-- [ ] Paper and code URLs are canonical and do not use tracking parameters.
-- [ ] The record is not a duplicate.
-- [ ] The note is one neutral sentence.
-- [ ] Validation passes and the generated README is committed.
+## Pull request checklist
 
-One paper per pull request is preferred because it makes metadata review and contributor attribution clear.
+- [ ] I checked the metadata against a publisher, anthology, OpenReview, CVF, or arXiv page.
+- [ ] I used all applicable tags and followed canonical tag order.
+- [ ] I linked only official or author-maintained code.
+- [ ] I ran validation, generation, and link checks.
+- [ ] I did not edit the generated publication list by hand.

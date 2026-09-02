@@ -1,0 +1,419 @@
+{
+  "snapshot_date": "2026-09-02",
+  "tag_order": [
+    "BIO",
+    "HG",
+    "LLM"
+  ],
+  "papers": [
+    {
+      "id": "scllm-dsc-2026",
+      "title": "scLLM-DSC: A Dual-level Contrastive Framework with Large Language Models for Single-cell RNA-seq Clustering",
+      "acronym": "scLLM-DSC",
+      "authors": "Ping Xu, Pengjiang Li, Tian Du, Zaitian Wang, Jiawei Gu, Zhiyuan Ning, Ziyue Qiao, Pengfei Wang, and Yuanchun Zhou",
+      "year": 2026,
+      "venue": "arXiv",
+      "tags": [
+        "BIO",
+        "LLM"
+      ],
+      "paper": "https://arxiv.org/abs/2606.13007",
+      "code": "",
+      "status": "preprint",
+      "note": "Uses LLM-derived biological knowledge and dual-level contrastive learning for single-cell clustering."
+    },
+    {
+      "id": "cahc-2026",
+      "title": "From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering",
+      "acronym": "CAHC",
+      "authors": "Li Ni, Shuaikang Zeng, Lin Mu, and Longlong Lin",
+      "year": 2026,
+      "venue": "WWW",
+      "tags": [
+        "HG"
+      ],
+      "paper": "https://arxiv.org/abs/2603.09370",
+      "code": "https://github.com/nilics/CAHC",
+      "status": "peer-reviewed",
+      "note": "Builds contrastive attributed-hypergraph representations specifically for clustering."
+    },
+    {
+      "id": "mask-2026",
+      "title": "Minority-aware Semantic Alignment via Knowledge Enhancement for Long-tailed Graph Clustering",
+      "acronym": "MASK",
+      "authors": "Yiwei Fu, Chunchun Chen, Yuxing Zhang, Weizhi Zhang, Guanjie Zheng, Wei Ye, Xiao Luo, Philip S. Yu, and Minghua Deng",
+      "year": 2026,
+      "venue": "CIKM",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "",
+      "code": "https://github.com/fuyw-aisw/MASK",
+      "status": "forthcoming",
+      "note": "Uses LLM knowledge to improve semantic alignment for long-tailed graph clustering."
+    },
+    {
+      "id": "dyg-rollm-2026",
+      "title": "Node Role-Guided LLMs for Dynamic Graph Clustering",
+      "acronym": "DyG-RoLLM",
+      "authors": "Dongyuan Li, Ying Zhang, Yaozu Wu, and Renhe Jiang",
+      "year": 2026,
+      "venue": "WWW",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://doi.org/10.1145/3774904.3792704",
+      "code": "https://github.com/Clearloveyuan/DyG-RoLLM",
+      "status": "peer-reviewed",
+      "note": "Uses semantic node roles and LLM reasoning for interpretable dynamic graph clustering."
+    },
+    {
+      "id": "scmuscle-2026",
+      "title": "scMUSCLE: Multi-scale Subspace Contrastive Learning for Single-cell RNA-seq Data Clustering",
+      "acronym": "scMUSCLE",
+      "authors": "Yun Ding, Yangzhen Jiang, Jing Wang, Dayu Tan, Yansen Su, and Chunhou Zheng",
+      "year": 2026,
+      "venue": "Briefings in Bioinformatics",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://doi.org/10.1093/bib/bbag005",
+      "code": "https://github.com/GodIsGad/scMUSCLE",
+      "status": "peer-reviewed",
+      "note": "Combines multi-scale subspace learning and contrastive objectives for scRNA-seq clustering."
+    },
+    {
+      "id": "ahrc-2025",
+      "title": "On Graph Representation for Attributed Hypergraph Clustering",
+      "acronym": "AHRC",
+      "authors": "Zijin Feng, Miao Qiao, Chengzhi Piao, and Hong Cheng",
+      "year": 2025,
+      "venue": "SIGMOD",
+      "tags": [
+        "HG"
+      ],
+      "paper": "https://doi.org/10.1145/3709741",
+      "code": "https://github.com/ForPaperSubmissions/Attributed_Hypergraph_Representation_for_Clustering_Code",
+      "status": "peer-reviewed",
+      "note": "Studies graph representations that preserve attributed-hypergraph structure for clustering."
+    },
+    {
+      "id": "hcn-pai-2025",
+      "title": "Hypergraph Clustering Network with Partial Attribute Imputation",
+      "acronym": "HCN-PAI",
+      "authors": "Qianqian Wang, Bowen Zhao, Zhengming Ding, Wei Feng, and Quanxue Gao",
+      "year": 2025,
+      "venue": "ICCV",
+      "tags": [
+        "HG"
+      ],
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_Hypergraph_Clustering_Network_with_Partial_Attribute_Imputation_ICCV_2025_paper.html",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Jointly imputes missing attributes and learns cluster assignments on hypergraphs."
+    },
+    {
+      "id": "hcn-2025",
+      "title": "A Simple yet Effective Hypergraph Clustering Network",
+      "acronym": "HCN",
+      "authors": "Qianqian Wang, Bowen Zhao, Zhengming Ding, Xiangdong Zhang, and Quanxue Gao",
+      "year": 2025,
+      "venue": "IJCAI",
+      "tags": [
+        "HG"
+      ],
+      "paper": "https://www.ijcai.org/proceedings/2025/0707",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Introduces a streamlined neural architecture for hypergraph clustering."
+    },
+    {
+      "id": "edge-colored-hypergraphs-2025",
+      "title": "Edge-Colored Clustering in Hypergraphs: Beyond Minimizing Unsatisfied Edges",
+      "acronym": "",
+      "authors": "Alex Crane, Thomas Stanley, Blair D. Sullivan, and Nate Veldt",
+      "year": 2025,
+      "venue": "ICML",
+      "tags": [
+        "HG"
+      ],
+      "paper": "https://openreview.net/forum?id=QAkh7c3r7c",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Develops objectives and algorithms for edge-colored hypergraph clustering."
+    },
+    {
+      "id": "ricci-hypergraph-clustering-2025",
+      "title": "Hypergraph Clustering Using Ricci Curvature: An Edge Transport Perspective",
+      "acronym": "",
+      "authors": "Olympio Hacquard",
+      "year": 2025,
+      "venue": "TMLR",
+      "tags": [
+        "HG"
+      ],
+      "paper": "https://openreview.net/forum?id=HMROU8MXqV",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Uses an edge-transport view of Ricci curvature to identify hypergraph clusters."
+    },
+    {
+      "id": "scrna-hypergraph-random-walks-2025",
+      "title": "Hypergraph Representations of scRNA-seq Data for Improved Clustering with Random Walks",
+      "acronym": "",
+      "authors": "Wan He, Daniel I. Bolnick, Samuel V. Scarpino, and Tina Eliassi-Rad",
+      "year": 2025,
+      "venue": "arXiv",
+      "tags": [
+        "BIO",
+        "HG"
+      ],
+      "paper": "https://arxiv.org/abs/2501.11760",
+      "code": "",
+      "status": "preprint",
+      "note": "Models scRNA-seq data as hypergraphs and applies random walks for improved cell clustering."
+    },
+    {
+      "id": "choir-2025",
+      "title": "CHOIR Improves Significance-Based Detection of Cell Types and States from Single-Cell Data",
+      "acronym": "CHOIR",
+      "authors": "Cathrine Sant, Lennart Mucke, and M. Ryan Corces",
+      "year": 2025,
+      "venue": "Nature Genetics",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://www.nature.com/articles/s41588-025-02148-8",
+      "code": "https://github.com/corceslab/CHOIR",
+      "status": "peer-reviewed",
+      "note": "Uses significance testing to resolve cell types and states in single-cell clustering."
+    },
+    {
+      "id": "cluey-2025",
+      "title": "CLUEY: Clustering Single-Cell RNA-seq Data with Deep Embedded Learning",
+      "acronym": "CLUEY",
+      "authors": "Daniel Kim, Carissa Chen, Lijia Yu, Jean Yee Hwa Yang, and Pengyi Yang",
+      "year": 2025,
+      "venue": "Bioinformatics",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://doi.org/10.1093/bioinformatics/btaf528",
+      "code": "https://github.com/SydneyBioX/CLUEY",
+      "status": "peer-reviewed",
+      "note": "Learns a compact embedded space for robust scRNA-seq clustering."
+    },
+    {
+      "id": "scg-cluster-2025",
+      "title": "scG-cluster: A Clustering Method for Single-Cell RNA Sequencing Data Based on Graph Neural Network",
+      "acronym": "scG-cluster",
+      "authors": "Yi Zhang, Xi Feng, Yin Wang, and Kai Shi",
+      "year": 2025,
+      "venue": "Scientific Reports",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://www.nature.com/articles/s41598-025-87672-7",
+      "code": "https://github.com/xixi-wq/scG-cluster",
+      "status": "peer-reviewed",
+      "note": "Applies graph neural representation learning to scRNA-seq cell clustering."
+    },
+    {
+      "id": "ehr-deberta-2025",
+      "title": "Identifying Clusters of People with Multiple Long-Term Conditions Using Large Language Models: A Population-Based Study",
+      "acronym": "EHR-DeBERTa",
+      "authors": "Alexander Smith, Thomas Beaney, Carinna Hockham, Bowen Su, Paul Elliott, Laura Downey, Spiros Denaxas, Payam Barnaghi, Abbas Dehghan, and Ioanna Tzoulaki",
+      "year": 2025,
+      "venue": "npj Digital Medicine",
+      "tags": [
+        "BIO",
+        "LLM"
+      ],
+      "paper": "https://doi.org/10.1038/s41746-025-01806-9",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Uses transformer language representations to discover multimorbidity phenotypes in population health records."
+    },
+    {
+      "id": "mark-2025",
+      "title": "MARK: Multi-Agent Collaboration with Ranking Guidance for Text-Attributed Graph Clustering",
+      "acronym": "MARK",
+      "authors": "Yiwei Fu, Yuxing Zhang, Chunchun Chen, Jianwen Ma, Quan Yuan, Rong-Cheng Tu, Xinli Huang, Wei Ye, Xiao Luo, and Minghua Deng",
+      "year": 2025,
+      "venue": "Findings of ACL",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://aclanthology.org/2025.findings-acl.314/",
+      "code": "https://github.com/fuyw-aisw/MARK",
+      "status": "peer-reviewed",
+      "note": "Coordinates LLM agents to create ranking supervision for text-attributed graph clustering."
+    },
+    {
+      "id": "d2cs-2025",
+      "title": "D2CS: Documents Graph Clustering Using LLM Supervision",
+      "acronym": "D2CS",
+      "authors": "Yoel Ashkenazi, Etzion Harari, Regev Yehezkel Imra, Naphtali Abudarham, Dekel Cohen, and Yoram Louzoun",
+      "year": 2025,
+      "venue": "Findings of EMNLP",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://aclanthology.org/2025.findings-emnlp.1283/",
+      "code": "https://github.com/D2CS-sub/D2CS",
+      "status": "peer-reviewed",
+      "note": "Uses LLM assessments of cluster coherence to update document-graph edges iteratively."
+    },
+    {
+      "id": "dial-in-llm-2025",
+      "title": "Dial-In LLM: Human-Aligned LLM-in-the-Loop Intent Clustering for Customer Service Dialogues",
+      "acronym": "Dial-In LLM",
+      "authors": "Mengze Hong, Wailing Ng, Chen Jason Zhang, Yuanfeng Song, and Di Jiang",
+      "year": 2025,
+      "venue": "EMNLP",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://aclanthology.org/2025.emnlp-main.300/",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Combines human preferences with LLM feedback for intent clustering in customer-service dialogues."
+    },
+    {
+      "id": "controllable-clustering-2025",
+      "title": "Controllable Clustering with LLM-Driven Embeddings",
+      "acronym": "",
+      "authors": "Kerria Pang-Naylor, Shivani Manivasagan, Aitong Zhong, Mehak Garg, Nicholas Mondello, Blake Buckner, Jonathan P. Chang, Khyati Mahajan, Masoud Hashemi, and Fabio Casati",
+      "year": 2025,
+      "venue": "EMNLP Industry Track",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://aclanthology.org/2025.emnlp-industry.48/",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Steers embedding-based clustering with natural-language instructions and LLM-generated signals."
+    },
+    {
+      "id": "spatial-hgnn-2024",
+      "title": "Hypergraph Neural Networks Reveal Spatial Domains from Single-Cell Transcriptomics Data",
+      "acronym": "",
+      "authors": "Mehrad Soltani and Luis Rueda",
+      "year": 2024,
+      "venue": "arXiv",
+      "tags": [
+        "BIO",
+        "HG"
+      ],
+      "paper": "https://arxiv.org/abs/2410.19868",
+      "code": "",
+      "status": "preprint",
+      "note": "Uses hypergraph neural networks to recover spatial domains from transcriptomics data."
+    },
+    {
+      "id": "scmlc-2024",
+      "title": "scMLC: A Multi-Level Clustering Method for Single-Cell RNA-seq Data",
+      "acronym": "scMLC",
+      "authors": "Yuxuan Chen, Ruiqing Zheng, Jin Liu, and Min Li",
+      "year": 2024,
+      "venue": "Briefings in Bioinformatics",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://doi.org/10.1093/bib/bbae101",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Uses multi-level representation learning to improve scRNA-seq clustering."
+    },
+    {
+      "id": "few-shot-clustering-2024",
+      "title": "Large Language Models Enable Few-Shot Clustering",
+      "acronym": "",
+      "authors": "Vijay Viswanathan, Kiril Gashteovski, Carolin Lawrence, Tongshuang Wu, and Graham Neubig",
+      "year": 2024,
+      "venue": "TACL",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://aclanthology.org/2024.tacl-1.18/",
+      "code": "https://github.com/viswavi/few-shot-clustering",
+      "status": "peer-reviewed",
+      "note": "Uses LLM pairwise guidance to support clustering with only a few labeled examples."
+    },
+    {
+      "id": "gclr-2024",
+      "title": "Large Language Model Guided Graph Clustering",
+      "acronym": "GCLR",
+      "authors": "Puja Trivedi, Nurendra Choudhary, Eddie Huang, Vassilis N. Ioannidis, Karthik Subbian, and Danai Koutra",
+      "year": 2024,
+      "venue": "LoG",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://openreview.net/forum?id=CLyhlb5DG5",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Queries an LLM selectively and uses noisy feedback to refine text-attributed graph clusters."
+    },
+    {
+      "id": "clusterllm-2023",
+      "title": "ClusterLLM: Large Language Models as a Guide for Text Clustering",
+      "acronym": "ClusterLLM",
+      "authors": "Yuwei Zhang, Zihan Wang, and Jingbo Shang",
+      "year": 2023,
+      "venue": "EMNLP",
+      "tags": [
+        "LLM"
+      ],
+      "paper": "https://aclanthology.org/2023.emnlp-main.858/",
+      "code": "https://github.com/zhang-yu-wei/ClusterLLM",
+      "status": "peer-reviewed",
+      "note": "Uses LLM-generated pairwise preferences to guide text clustering."
+    },
+    {
+      "id": "ahcka-2023",
+      "title": "Efficient and Effective Attributed Hypergraph Clustering via K-Nearest Neighbor Augmentation",
+      "acronym": "AHCKA",
+      "authors": "Yiran Li, Renchi Yang, and Jieming Shi",
+      "year": 2023,
+      "venue": "SIGMOD",
+      "tags": [
+        "HG"
+      ],
+      "paper": "https://doi.org/10.1145/3589261",
+      "code": "https://github.com/CyanideCentral/AHCKA",
+      "status": "peer-reviewed",
+      "note": "Augments attributed hypergraphs with nearest-neighbor relations for efficient clustering."
+    },
+    {
+      "id": "moclust-2023",
+      "title": "MoClust: Identifying Cell Types from Single-Cell Transcriptomics Data Using Multi-Objective Clustering",
+      "acronym": "MoClust",
+      "authors": "Musu Yuan, Liang Chen, and Minghua Deng",
+      "year": 2023,
+      "venue": "Bioinformatics",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://doi.org/10.1093/bioinformatics/btac736",
+      "code": "https://doi.org/10.5281/zenodo.7306504",
+      "status": "peer-reviewed",
+      "note": "Combines multiple clustering objectives to identify cell types from single-cell transcriptomics."
+    },
+    {
+      "id": "grac-2021",
+      "title": "HyperGraph Convolution Based Attributed HyperGraph Clustering",
+      "acronym": "GRAC",
+      "authors": "Barakeel Fanseu Kamhoua, Lin Zhang, Kaili Ma, James Cheng, Bo Li, and Bo Han",
+      "year": 2021,
+      "venue": "CIKM",
+      "tags": [
+        "HG"
+      ],
+      "paper": "https://doi.org/10.1145/3459637.3482437",
+      "code": "https://github.com/BarakeelFanseu/GRAC_CIKM",
+      "status": "peer-reviewed",
+      "note": "Learns attributed-hypergraph representations with hypergraph convolution for clustering."
+    }
+  ]
+}

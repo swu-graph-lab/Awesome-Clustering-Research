@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A filterable reading map for biological, hypergraph, and LLM-enhanced clustering.">
+    <title>Awesome Clustering Research</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav shell" aria-label="Primary navigation">
+        <a class="brand" href="./">ACR<span class="brand-dot">.</span></a>
+        <div class="nav-links">
+          <a href="#topics">Topics</a>
+          <a href="#publications">Publications</a>
+          <a href="papers.json">Catalog JSON</a>
+        </div>
+      </nav>
+      <div class="hero-content shell">
+        <p class="eyebrow">Group research map</p>
+        <h1>Clustering research,<br><span>connected across fields.</span></h1>
+        <p class="intro">A curated timeline at the intersection of biological data, hypergraphs, and large language models.</p>
+        <a class="hero-action" href="#publications">Explore publications <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="orb orb-one" aria-hidden="true"></div>
+      <div class="orb orb-two" aria-hidden="true"></div>
+    </header>
+
+    <main>
+      <section id="topics" class="topics shell section">
+        <div class="section-heading">
+          <p class="eyebrow">Three directions, one catalog</p>
+          <h2>Research topics</h2>
+          <p>Tags can be combined, so interdisciplinary papers remain visible from every relevant direction.</p>
+        </div>
+        <div class="topic-grid">
+          <button class="topic-card bio" type="button" data-topic="BIO">
+            <span class="topic-code">BIO</span>
+            <span class="topic-name">Biological clustering</span>
+            <span class="topic-description">Single-cell, spatial transcriptomics, multi-omics, and clinical phenotyping.</span>
+            <span class="topic-count" id="count-BIO">— papers</span>
+          </button>
+          <button class="topic-card hg" type="button" data-topic="HG">
+            <span class="topic-code">HG</span>
+            <span class="topic-name">Hypergraph clustering</span>
+            <span class="topic-description">Higher-order representations, clustering objectives, algorithms, and theory.</span>
+            <span class="topic-count" id="count-HG">— papers</span>
+          </button>
+          <button class="topic-card llm" type="button" data-topic="LLM">
+            <span class="topic-code">LLM</span>
+            <span class="topic-name">LLM-enhanced clustering</span>
+            <span class="topic-description">Language models as representation, supervision, feedback, reasoning, or agents.</span>
+            <span class="topic-count" id="count-LLM">— papers</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="publications" class="publications section">
+        <div class="shell">
+          <div class="section-heading publication-heading">
+            <div>
+              <p class="eyebrow">Reverse chronological</p>
+              <h2>Publications</h2>
+              <p id="result-summary" aria-live="polite">Loading catalog…</p>
+            </div>
+            <label class="search">
+              <span class="sr-only">Search publications</span>
+              <span aria-hidden="true">⌕</span>
+              <input id="search-input" type="search" placeholder="Search title, author, venue…" autocomplete="off">
+            </label>
+          </div>
+          <div class="filters" role="group" aria-label="Filter by topic">
+            <button class="filter active" type="button" data-filter="ALL" aria-pressed="true">All</button>
+            <button class="filter" type="button" data-filter="BIO" aria-pressed="false">BIO</button>
+            <button class="filter" type="button" data-filter="HG" aria-pressed="false">HG</button>
+            <button class="filter" type="button" data-filter="LLM" aria-pressed="false">LLM</button>
+          </div>
+          <div id="publication-list"></div>
+          <noscript>This page needs JavaScript to load the publication catalog. See the repository README instead.</noscript>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell footer-content">
+        <p>Awesome Clustering Research</p>
+        <p>Browse the generated <a href="papers.json">machine-readable catalog</a>.</p>
+      </div>
+    </footer>
+  </body>
+</html>

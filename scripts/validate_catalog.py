@@ -1,42 +1,18 @@
 #!/usr/bin/env python3
-"""Validate the machine-readable LLM4GM catalog using only the standard library."""
+"""Validate the clustering-paper catalog using the Python standard library."""
 
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "papers.json"
-
-REQUIRED = {
-    "id",
-    "title",
-    "acronym",
-    "year",
-    "venue",
-    "section",
-    "tasks",
-    "roles",
-    "paper",
-    "code",
-    "status",
-    "note",
-}
-SECTIONS = {"surveys", "benchmarks", "general_models", "node_structure", "clustering"}
-TASKS = {
-    "survey",
-    "benchmark",
-    "general-purpose",
-    "node-classification",
-    "link-prediction",
-    "graph-classification",
-    "structure-learning",
-    "graph-clustering",
-}
-ROLES = {"encoder", "annotator", "refiner", "predictor", "aligner", "agent"}
+REQUIRED = {"id", "title", "acronym", "authors", "year", "venue", "tags", "paper", "code", "status", "note"}
+TAG_ORDER = ["BIO", "HG", "LLM"]
 STATUSES = {"peer-reviewed", "preprint", "forthcoming"}
 
 
@@ -50,13 +26,15 @@ def main() -> int:
     papers = data.get("papers")
     errors: list[str] = []
 
+    if data.get("tag_order") != TAG_ORDER:
+        errors.append(f"tag_order must be {TAG_ORDER}")
     if not isinstance(papers, list) or not papers:
-        print("Catalog must contain a non-empty 'papers' list.", file=sys.stderr)
-        return 1
+        errors.append("catalog must contain a non-empty papers list")
+        papers = []
 
     seen_ids: set[str] = set()
     seen_titles: set[str] = set()
-    seen_papers: set[str] = set()
+    previous_year = 10_000
 
     for index, item in enumerate(papers, start=1):
         label = item.get("id", f"record-{index}")
@@ -69,41 +47,43 @@ def main() -> int:
         if missing:
             continue
 
+        if not re.fullmatch(r"[a-z0-9-]+", item["id"]):
+            errors.append(f"{label}: id must use lowercase letters, digits, and hyphens")
         if item["id"] in seen_ids:
             errors.append(f"{label}: duplicate id")
         seen_ids.add(item["id"])
 
-        normalized_title = " ".join(item["title"].lower().split())
+        normalized_title = " ".join(item["title"].casefold().split())
         if normalized_title in seen_titles:
             errors.append(f"{label}: duplicate title")
         seen_titles.add(normalized_title)
 
-        if item["section"] not in SECTIONS:
-            errors.append(f"{label}: invalid section {item['section']!r}")
+        year = item["year"]
+        if not isinstance(year, int) or not 2000 <= year <= 2027:
+            errors.append(f"{label}: invalid year {year!r}")
+        elif year > previous_year:
+            errors.append(f"{label}: records must be ordered by year descending")
+        else:
+            previous_year = year
+
+        tags = item["tags"]
+        if not isinstance(tags, list) or not tags:
+            errors.append(f"{label}: tags must be a non-empty list")
+        elif len(tags) != len(set(tags)) or any(tag not in TAG_ORDER for tag in tags):
+            errors.append(f"{label}: invalid or duplicate tags {tags!r}")
+        elif tags != [tag for tag in TAG_ORDER if tag in tags]:
+            errors.append(f"{label}: tags must follow canonical order {TAG_ORDER}")
+
         if item["status"] not in STATUSES:
             errors.append(f"{label}: invalid status {item['status']!r}")
-        if not isinstance(item["year"], int) or not 2000 <= item["year"] <= 2027:
-            errors.append(f"{label}: invalid year {item['year']!r}")
-        if not isinstance(item["tasks"], list) or not item["tasks"]:
-            errors.append(f"{label}: tasks must be a non-empty list")
-        elif unknown := set(item["tasks"]) - TASKS:
-            errors.append(f"{label}: invalid tasks {sorted(unknown)}")
-        if not isinstance(item["roles"], list) or not item["roles"]:
-            errors.append(f"{label}: roles must be a non-empty list")
-        elif unknown := set(item["roles"]) - ROLES:
-            errors.append(f"{label}: invalid roles {sorted(unknown)}")
-
         for field in ("paper", "code"):
-            value = item[field]
-            if value and not is_url(value):
-                errors.append(f"{label}: {field} is not an HTTP(S) URL")
+            if item[field] and not is_url(item[field]):
+                errors.append(f"{label}: {field} must be an HTTP(S) URL")
         if not item["paper"] and item["status"] != "forthcoming":
             errors.append(f"{label}: only forthcoming records may omit a paper URL")
-        if item["paper"]:
-            canonical = item["paper"].rstrip("/")
-            if canonical in seen_papers:
-                errors.append(f"{label}: duplicate paper URL")
-            seen_papers.add(canonical)
+        for field in ("title", "authors", "venue", "note"):
+            if not isinstance(item[field], str) or not item[field].strip():
+                errors.append(f"{label}: {field} must be a non-empty string")
         if not item["note"].endswith("."):
             errors.append(f"{label}: note must end with a period")
 
@@ -113,7 +93,7 @@ def main() -> int:
             print(f"- {error}", file=sys.stderr)
         return 1
 
-    print(f"Validated {len(papers)} catalog records (snapshot {data['snapshot_date']}).")
+    print(f"Validated {len(papers)} records across {', '.join(TAG_ORDER)} (snapshot {data['snapshot_date']}).")
     return 0
 
 

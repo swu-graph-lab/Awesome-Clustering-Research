@@ -1,53 +1,40 @@
 name: Add a paper
-description: Propose a paper, benchmark, or official implementation for the catalog
+description: Suggest a paper for the clustering research catalog
 title: "[Paper] "
-labels: ["paper-candidate"]
+labels: [paper]
 body:
   - type: input
     id: title
     attributes:
-      label: Exact paper title
+      label: Paper title
     validations:
       required: true
   - type: input
     id: paper
     attributes:
-      label: Stable paper URL
-      description: Prefer a publisher, OpenReview, ACL Anthology, or arXiv abstract page.
+      label: Primary paper page
+      description: Prefer a publisher, anthology, OpenReview, CVF, or arXiv abstract page.
     validations:
       required: true
   - type: input
     id: code
     attributes:
-      label: Official code URL
-      description: Leave blank if no official implementation is public.
-  - type: dropdown
-    id: task
+      label: Official code
+  - type: checkboxes
+    id: tags
     attributes:
-      label: Primary task
+      label: Tags
+      description: Select every tag that materially applies.
       options:
-        - graph clustering / community detection
-        - node classification
-        - link prediction
-        - graph classification
-        - graph structure learning
-        - general-purpose graph mining
-        - benchmark or survey
+        - label: BIO — biological or medical clustering
+        - label: HG — hypergraph clustering
+        - label: LLM — LLM-enhanced clustering
     validations:
       required: true
   - type: textarea
-    id: role
+    id: rationale
     attributes:
-      label: What does the LLM do?
-      description: Explain the concrete signal produced or consumed by the LLM.
+      label: Why it belongs
+      description: One or two sentences explaining the clustering contribution and tags.
     validations:
       required: true
-  - type: checkboxes
-    id: checks
-    attributes:
-      label: Scope check
-      options:
-        - label: The work evaluates a graph-mining task or benchmark.
-          required: true
-        - label: I checked that this is not already in data/papers.json.
-          required: true
