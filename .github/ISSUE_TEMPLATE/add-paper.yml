@@ -1,0 +1,53 @@
+name: Add a paper
+description: Propose a paper, benchmark, or official implementation for the catalog
+title: "[Paper] "
+labels: ["paper-candidate"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Exact paper title
+    validations:
+      required: true
+  - type: input
+    id: paper
+    attributes:
+      label: Stable paper URL
+      description: Prefer a publisher, OpenReview, ACL Anthology, or arXiv abstract page.
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: Official code URL
+      description: Leave blank if no official implementation is public.
+  - type: dropdown
+    id: task
+    attributes:
+      label: Primary task
+      options:
+        - graph clustering / community detection
+        - node classification
+        - link prediction
+        - graph classification
+        - graph structure learning
+        - general-purpose graph mining
+        - benchmark or survey
+    validations:
+      required: true
+  - type: textarea
+    id: role
+    attributes:
+      label: What does the LLM do?
+      description: Explain the concrete signal produced or consumed by the LLM.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Scope check
+      options:
+        - label: The work evaluates a graph-mining task or benchmark.
+          required: true
+        - label: I checked that this is not already in data/papers.json.
+          required: true
