@@ -106,7 +106,6 @@ Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological c
 - [PyAGC](https://github.com/Cloudy1225/PyAGC)
 - [Awesome Single-Cell Clustering](https://github.com/DayuHuu/Awesome-Single-Cell-Clustering)
 - [Awesome Hypergraph Network](https://github.com/gzcsudo/Awesome-Hypergraph-Network)
-- [MASK](https://github.com/fuyw-aisw/MASK)
 
 These repositories are discovery sources. Records here are normalized and checked against paper or project pages rather than copied wholesale.
 
