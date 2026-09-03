@@ -1,11 +1,26 @@
 {
-  "snapshot_date": "2026-09-02",
+  "snapshot_date": "2026-09-03",
   "tag_order": [
     "BIO",
     "HG",
     "LLM"
   ],
   "papers": [
+    {
+      "id": "uni-dhc-2026",
+      "title": "A Unified Framework for Deep Hypergraph Clustering Beyond Homophily",
+      "acronym": "Uni-DHC",
+      "authors": "Bowen Zhao and Qianqian Wang",
+      "year": 2026,
+      "venue": "ICML",
+      "tags": [
+        "HG"
+      ],
+      "paper": "https://openreview.net/forum?id=tRl6gCrEma",
+      "code": "",
+      "status": "peer-reviewed",
+      "note": "Learns an adaptive high-order hypergraph propagation filter for clustering under both homophily and heterophily."
+    },
     {
       "id": "scllm-dsc-2026",
       "title": "scLLM-DSC: A Dual-level Contrastive Framework with Large Language Models for Single-cell RNA-seq Clustering",

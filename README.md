@@ -4,7 +4,7 @@
 
 A curated, cross-disciplinary reading map for **biological clustering**, **hypergraph clustering**, and **LLM-enhanced clustering**.
 
-> **Snapshot:** 2026-09-02 · **Catalog:** 51 papers · [中文说明](README_zh-CN.md)
+> **Snapshot:** 2026-09-03 · **Catalog:** 52 papers · [中文说明](README_zh-CN.md)
 
 ## Topics and tags
 
@@ -27,6 +27,7 @@ Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological c
 <!-- CATALOG:START -->
 ### 2026
 
+- `[HG]` [**Uni-DHC** — A Unified Framework for Deep Hypergraph Clustering Beyond Homophily](https://openreview.net/forum?id=tRl6gCrEma) — Bowen Zhao and Qianqian Wang. *ICML*. [Paper](https://openreview.net/forum?id=tRl6gCrEma)
 - `[BIO+LLM]` [**scLLM-DSC: A Dual-level Contrastive Framework with Large Language Models for Single-cell RNA-seq Clustering**](https://arxiv.org/abs/2606.13007) — Ping Xu, Pengjiang Li, Tian Du, Zaitian Wang, Jiawei Gu, Zhiyuan Ning, Ziyue Qiao, Pengfei Wang, and Yuanchun Zhou. *arXiv*. [Paper](https://arxiv.org/abs/2606.13007)
 - `[HG]` [**CAHC** — From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering](https://arxiv.org/abs/2603.09370) — Li Ni, Shuaikang Zeng, Lin Mu, and Longlong Lin. *WWW*. [Paper](https://arxiv.org/abs/2603.09370) · [Code](https://github.com/nilics/CAHC)
 - `[LLM]` **MASK** — Minority-aware Semantic Alignment via Knowledge Enhancement for Long-tailed Graph Clustering — Yiwei Fu, Chunchun Chen, Yuxing Zhang, Weizhi Zhang, Guanjie Zheng, Wei Ye, Xiao Luo, Philip S. Yu, and Minghua Deng. *CIKM*. [Code](https://github.com/fuyw-aisw/MASK)
