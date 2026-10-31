@@ -26,6 +26,12 @@
 - 在 [结构化数据](data/papers.json) 中按年份、标签、会议或代码状态检索；
 - 新增论文时遵循 [贡献指南](CONTRIBUTING.md)，不要直接手改 README 中的论文列表。
 
+## 相关表示学习论文
+
+以下论文作为相关方法参考，单独列出，不计入以聚类为核心任务的主目录。
+
+- [**HEAL: Hybrid Enhancement with LLM-based Agents for Text-attributed Hypergraph Self-supervised Representation Learning**](https://aclanthology.org/2025.findings-emnlp.360/) — Ruochang Li、Xiao Luo、Zhiping Xiao、Wei Ju、Ming Zhang。*Findings of EMNLP 2025*，6815–6829 页。[仓库内 PDF](papers/2025/HEAL_Findings_EMNLP2025.pdf) · [引用与许可](papers/README.md#heal-2025)。利用 LLM 智能体增强节点文本、改进超图拓扑，用于自监督表示学习；作为相关背景收录，不将其表述为聚类方法。
+
 ## 维护原则
 
 1. 论文必须以聚类为核心任务或明确贡献，而不是仅在背景中提到聚类。

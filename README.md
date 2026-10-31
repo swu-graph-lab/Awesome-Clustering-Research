@@ -93,6 +93,12 @@ Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological c
 - `[HG]` [**GRAC** — HyperGraph Convolution Based Attributed HyperGraph Clustering](https://doi.org/10.1145/3459637.3482437) — Barakeel Fanseu Kamhoua, Lin Zhang, Kaili Ma, James Cheng, Bo Li, and Bo Han. *CIKM*. [Paper](https://doi.org/10.1145/3459637.3482437) · [Code](https://github.com/BarakeelFanseu/GRAC_CIKM)
 <!-- CATALOG:END -->
 
+## Related representation-learning papers
+
+These papers provide relevant representation-learning methods; they are listed separately from the clustering catalog above.
+
+- [**HEAL: Hybrid Enhancement with LLM-based Agents for Text-attributed Hypergraph Self-supervised Representation Learning**](https://aclanthology.org/2025.findings-emnlp.360/) — Ruochang Li, Xiao Luo, Zhiping Xiao, Wei Ju, and Ming Zhang. *Findings of EMNLP 2025*, pp. 6815–6829. [PDF](papers/2025/HEAL_Findings_EMNLP2025.pdf) · [Citation and license](papers/README.md#heal-2025). Uses LLM agents for text augmentation and hypergraph topology refinement in self-supervised representation learning; it is related background rather than a clustering method.
+
 ## Status legend
 
 - `peer-reviewed`: published in a peer-reviewed venue.
