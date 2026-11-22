@@ -23,6 +23,36 @@
       "note": "BIO-ST (spatial transcriptomics): uses LLM-derived gene-set semantic embeddings and fine-grained semantic modulation to guide spatial graph features for tissue-spot clustering."
     },
     {
+      "id": "harvest-2026",
+      "title": "HarveST uses a heterogeneous graph learning framework to reveal spatial transcriptomics patterns",
+      "acronym": "HarveST",
+      "authors": "Junning Feng, Tianwei Yu, and Yanlin Zhang",
+      "year": 2026,
+      "venue": "Communications Biology",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://www.nature.com/articles/s42003-026-09841-2",
+      "code": "https://github.com/Seven595/HarveST",
+      "status": "peer-reviewed",
+      "note": "BIO-ST (spatial transcriptomics): integrates spatial, transcriptomic, and gene-gene relationships in a heterogeneous graph for spatial domain identification and domain-marker gene discovery."
+    },
+    {
+      "id": "prest-2026",
+      "title": "Evidence-aware Integration and Domain Identification of Spatial Transcriptomics Data",
+      "acronym": "PREST",
+      "authors": "Wei Zhang, Siyu Yi, Lezhi Chen, Yifan Wang, Ziyue Qiao, Yongdao Zhou, and Wei Ju",
+      "year": 2026,
+      "venue": "AAAI",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://doi.org/10.1609/aaai.v40i19.38673",
+      "code": "https://github.com/wayc04/PREST",
+      "status": "peer-reviewed",
+      "note": "BIO-ST (spatial transcriptomics): learns clustering-friendly representations with class prototypes, evidence-based uncertainty estimation, multi-scale attention fusion, and spatial regularization for spatial domain identification."
+    },
+    {
       "id": "uni-dhc-2026",
       "title": "A Unified Framework for Deep Hypergraph Clustering Beyond Homophily",
       "acronym": "Uni-DHC",
@@ -655,6 +685,21 @@
       "code": "https://agenticlearning.ai/icc/",
       "status": "preprint",
       "note": "Extends in-context learning to zero-shot and text-conditioned clustering across numeric, text, and image data."
+    },
+    {
+      "id": "sdmbench-2024",
+      "title": "Benchmarking spatial clustering methods with spatially resolved transcriptomics data",
+      "acronym": "SDMBench",
+      "authors": "Zhiyuan Yuan, Fangyuan Zhao, Senlin Lin, Yu Zhao, Jianhua Yao, Yan Cui, Xiao-Yong Zhang, and Yi Zhao",
+      "year": 2024,
+      "venue": "Nature Methods",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://www.nature.com/articles/s41592-024-02215-8",
+      "code": "https://github.com/zhaofangyuan98/SDMBench",
+      "status": "peer-reviewed",
+      "note": "BIO-ST (spatial transcriptomics), benchmark and review reference: compares 13 spatial clustering methods for accuracy, spatial continuity, marker-gene detection, scalability, and robustness; published as an Analysis article."
     },
     {
       "id": "spatial-hgnn-2024",
