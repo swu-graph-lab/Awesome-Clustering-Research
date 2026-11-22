@@ -1,11 +1,27 @@
 {
-  "snapshot_date": "2026-09-03",
+  "snapshot_date": "2026-11-22",
   "tag_order": [
     "BIO",
     "HG",
     "LLM"
   ],
   "papers": [
+    {
+      "id": "semst-2026",
+      "title": "When Genes Speak: A Semantic-Guided Framework for Spatially Resolved Transcriptomics Data Clustering",
+      "acronym": "SemST",
+      "authors": "Jiangkai Long, Yanran Zhu, Chang Tang, Kun Sun, Yuanyuan Liu, and Xuesong Yan",
+      "year": 2026,
+      "venue": "AAAI",
+      "tags": [
+        "BIO",
+        "LLM"
+      ],
+      "paper": "https://doi.org/10.1609/aaai.v40i1.37047",
+      "code": "https://github.com/longjiangk/SemST",
+      "status": "peer-reviewed",
+      "note": "BIO-ST (spatial transcriptomics): uses LLM-derived gene-set semantic embeddings and fine-grained semantic modulation to guide spatial graph features for tissue-spot clustering."
+    },
     {
       "id": "uni-dhc-2026",
       "title": "A Unified Framework for Deep Hypergraph Clustering Beyond Homophily",
