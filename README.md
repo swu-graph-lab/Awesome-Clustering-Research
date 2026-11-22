@@ -4,7 +4,7 @@
 
 A curated, cross-disciplinary reading map for **biological clustering**, **hypergraph clustering**, and **LLM-enhanced clustering**.
 
-> **Snapshot:** 2026-09-03 · **Catalog:** 52 papers · [中文说明](README_zh-CN.md)
+> **Snapshot:** 2026-11-22 · **Catalog:** 56 papers · [中文说明](README_zh-CN.md)
 
 ## Topics and tags
 
@@ -27,6 +27,9 @@ Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological c
 <!-- CATALOG:START -->
 ### 2026
 
+- `[BIO+LLM]` [**SemST** — When Genes Speak: A Semantic-Guided Framework for Spatially Resolved Transcriptomics Data Clustering](https://doi.org/10.1609/aaai.v40i1.37047) — Jiangkai Long, Yanran Zhu, Chang Tang, Kun Sun, Yuanyuan Liu, and Xuesong Yan. *AAAI*. [Paper](https://doi.org/10.1609/aaai.v40i1.37047) · [Code](https://github.com/longjiangk/SemST)
+- `[BIO]` [**HarveST uses a heterogeneous graph learning framework to reveal spatial transcriptomics patterns**](https://www.nature.com/articles/s42003-026-09841-2) — Junning Feng, Tianwei Yu, and Yanlin Zhang. *Communications Biology*. [Paper](https://www.nature.com/articles/s42003-026-09841-2) · [Code](https://github.com/Seven595/HarveST)
+- `[BIO]` [**PREST** — Evidence-aware Integration and Domain Identification of Spatial Transcriptomics Data](https://doi.org/10.1609/aaai.v40i19.38673) — Wei Zhang, Siyu Yi, Lezhi Chen, Yifan Wang, Ziyue Qiao, Yongdao Zhou, and Wei Ju. *AAAI*. [Paper](https://doi.org/10.1609/aaai.v40i19.38673) · [Code](https://github.com/wayc04/PREST)
 - `[HG]` [**Uni-DHC** — A Unified Framework for Deep Hypergraph Clustering Beyond Homophily](https://openreview.net/forum?id=tRl6gCrEma) — Bowen Zhao and Qianqian Wang. *ICML*. [Paper](https://openreview.net/forum?id=tRl6gCrEma)
 - `[BIO+LLM]` [**scLLM-DSC: A Dual-level Contrastive Framework with Large Language Models for Single-cell RNA-seq Clustering**](https://arxiv.org/abs/2606.13007) — Ping Xu, Pengjiang Li, Tian Du, Zaitian Wang, Jiawei Gu, Zhiyuan Ning, Ziyue Qiao, Pengfei Wang, and Yuanchun Zhou. *arXiv*. [Paper](https://arxiv.org/abs/2606.13007)
 - `[HG]` [**CAHC** — From Representation to Clusters: A Contrastive Learning Approach for Attributed Hypergraph Clustering](https://arxiv.org/abs/2603.09370) — Li Ni, Shuaikang Zeng, Lin Mu, and Longlong Lin. *WWW*. [Paper](https://arxiv.org/abs/2603.09370) · [Code](https://github.com/nilics/CAHC)
@@ -75,6 +78,7 @@ Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological c
 
 ### 2024
 
+- `[BIO]` [**SDMBench** — Benchmarking spatial clustering methods with spatially resolved transcriptomics data](https://www.nature.com/articles/s41592-024-02215-8) — Zhiyuan Yuan, Fangyuan Zhao, Senlin Lin, Yu Zhao, Jianhua Yao, Yan Cui, Xiao-Yong Zhang, and Yi Zhao. *Nature Methods*. [Paper](https://www.nature.com/articles/s41592-024-02215-8) · [Code](https://github.com/zhaofangyuan98/SDMBench)
 - `[BIO+HG]` [**Hypergraph Neural Networks Reveal Spatial Domains from Single-Cell Transcriptomics Data**](https://arxiv.org/abs/2410.19868) — Mehrad Soltani and Luis Rueda. *arXiv*. [Paper](https://arxiv.org/abs/2410.19868)
 - `[BIO]` [**scMLC: A Multi-Level Clustering Method for Single-Cell RNA-seq Data**](https://doi.org/10.1093/bib/bbae101) — Yuxuan Chen, Ruiqing Zheng, Jin Liu, and Min Li. *Briefings in Bioinformatics*. [Paper](https://doi.org/10.1093/bib/bbae101)
 - `[LLM]` [**Large Language Models Enable Few-Shot Clustering**](https://aclanthology.org/2024.tacl-1.18/) — Vijay Viswanathan, Kiril Gashteovski, Carolin Lawrence, Tongshuang Wu, and Graham Neubig. *TACL*. [Paper](https://aclanthology.org/2024.tacl-1.18/) · [Code](https://github.com/viswavi/few-shot-clustering)
