@@ -23,6 +23,8 @@ def link(label: str, url: str) -> str:
 
 def render_record(item: dict) -> str:
     badge = "+".join(item["tags"])
+    if item.get("subcategory") == "sr":
+        badge = badge.replace("BIO", "BIO/sr")
     name = f"**{item['acronym']}** — {item['title']}" if item["acronym"] and not item["title"].startswith(item["acronym"]) else f"**{item['title']}**"
     name = link(name, item["paper"]) if item["paper"] else name
     resources = [link("Paper", item["paper"]), link("Code", item["code"])]
@@ -86,3 +88,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

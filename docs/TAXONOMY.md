@@ -8,6 +8,8 @@ Use `BIO` when clustering biological or medical entities is a central evaluated 
 
 Do not use it merely because a generic clustering method is evaluated on one biological dataset without biological motivation or analysis.
 
+The optional `sr` subcategory is nested under `BIO` and recorded as `subcategory: "sr"`. Papers retain the `BIO` tag and appear under both BIO and BIO/sr filters.
+
 ## `HG` — Hypergraph clustering
 
 Use `HG` when a hypergraph is central to the clustering representation, objective, algorithm, or theoretical analysis.
@@ -36,3 +38,4 @@ Tags follow the fixed order `BIO`, `HG`, `LLM`:
 - `peer-reviewed` means the paper is published in a peer-reviewed venue.
 - `preprint` means only a public manuscript is confirmed.
 - `forthcoming` is reserved for a confirmed venue claim without a public paper page.
+

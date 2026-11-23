@@ -12,6 +12,8 @@
 
 一篇论文可以有多个标签。例如：
 
+`BIO/sr` 是 `BIO` 下的子分类，相关论文仍可通过 `BIO` 筛选。
+
 - `[BIO+HG]`：用超图方法做生物数据聚类；
 - `[BIO+LLM]`：用 LLM 增强生物或医学聚类；
 - `[HG+LLM]`：用 LLM 做超图聚类；
@@ -49,3 +51,4 @@ python scripts/check_links.py
 ```
 
 本项目采用 [MIT License](LICENSE)。
+

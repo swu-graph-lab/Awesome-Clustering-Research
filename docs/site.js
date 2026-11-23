@@ -23,7 +23,7 @@ function paperCard(paper) {
     : escapeHtml(paper.title);
   return `
     <article class="paper-card">
-      <span class="paper-badge">${paper.tags.join("+")}</span>
+      <span class="paper-badge">${paper.tags.map((tag) => tag === "BIO" && paper.subcategory === "sr" ? "BIO/sr" : tag).join("+")}</span>
       <h3>${title}</h3>
       <p class="authors">${escapeHtml(paper.authors)}</p>
       <div class="paper-meta">
@@ -38,7 +38,7 @@ function paperCard(paper) {
 function render() {
   const query = state.query.trim().toLocaleLowerCase();
   const visible = state.papers.filter((paper) => {
-    const tagMatch = state.filter === "ALL" || paper.tags.includes(state.filter);
+    const tagMatch = state.filter === "ALL" || (state.filter === "BIO/sr" ? paper.tags.includes("BIO") && paper.subcategory === "sr" : paper.tags.includes(state.filter));
     const haystack = [paper.title, paper.acronym, paper.authors, paper.venue, paper.note, ...paper.tags].join(" ").toLocaleLowerCase();
     return tagMatch && (!query || haystack.includes(query));
   });
@@ -91,9 +91,10 @@ fetch("./papers.json")
       document.querySelector(`#count-${tag}`).textContent = `${count} ${count === 1 ? "paper" : "papers"}`;
     });
     const requested = new URLSearchParams(window.location.search).get("tag");
-    setFilter(TAGS.includes(requested) ? requested : "ALL");
+    setFilter([...TAGS, "BIO/sr"].includes(requested) ? requested : "ALL");
   })
   .catch((error) => {
     summary.textContent = "Catalog could not be loaded.";
     list.innerHTML = `<p class="empty">Open this page through a local web server or GitHub Pages. (${escapeHtml(error.message)})</p>`;
   });
+

@@ -39,13 +39,16 @@ def main() -> int:
     for index, item in enumerate(papers, start=1):
         label = item.get("id", f"record-{index}")
         missing = REQUIRED - item.keys()
-        extra = item.keys() - REQUIRED
+        extra = item.keys() - REQUIRED - {"subcategory"}
         if missing:
             errors.append(f"{label}: missing fields {sorted(missing)}")
         if extra:
             errors.append(f"{label}: unknown fields {sorted(extra)}")
         if missing:
             continue
+
+        if "subcategory" in item and (item["subcategory"] != "sr" or "BIO" not in item["tags"]):
+            errors.append(f"{label}: subcategory sr requires BIO")
 
         if not re.fullmatch(r"[a-z0-9-]+", item["id"]):
             errors.append(f"{label}: id must use lowercase letters, digits, and hyphens")
@@ -99,3 +102,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

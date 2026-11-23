@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-09-03",
+  "snapshot_date": "2026-11-23",
   "tag_order": [
     "BIO",
     "HG",
@@ -171,6 +171,22 @@
       "code": "",
       "status": "peer-reviewed",
       "note": "Guides seed expansion with GPT and community-aware graph verbalization for local community detection."
+    },
+    {
+      "id": "scdebgcl-2026",
+      "title": "scDEBGCL: A Deep Embedding Approach Based on Bipartite Graph Contrastive Learning for Single-cell RNA-seq Data",
+      "acronym": "scDEBGCL",
+      "authors": "Jing Wang, Delei Ke, Junfeng Xia, Ao Liu, Yansen Su, and Chun-Hou Zheng",
+      "year": 2026,
+      "venue": "BMC Biology",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://doi.org/10.1186/s12915-026-02598-4",
+      "code": "https://zenodo.org/records/19028601",
+      "status": "peer-reviewed",
+      "note": "Learns cell embeddings via bipartite graph contrastive learning, with cell clustering among the downstream tasks.",
+      "subcategory": "sr"
     },
     {
       "id": "ahrc-2025",
@@ -641,6 +657,38 @@
       "note": "Extends in-context learning to zero-shot and text-conditioned clustering across numeric, text, and image data."
     },
     {
+      "id": "dgcsg-2025",
+      "title": "Differentiable Graph Clustering with Structural Grouping for Single-cell RNA-seq Data",
+      "acronym": "DGCSG",
+      "authors": "Xiaoqiang Yan, Shike Du, Quan Zou, and Zhen Tian",
+      "year": 2025,
+      "venue": "Bioinformatics",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://doi.org/10.1093/bioinformatics/btaf347",
+      "code": "https://github.com/Xiaoqiang-Yan/DGCSG",
+      "status": "peer-reviewed",
+      "note": "Uses differentiable normalized cuts and graph attention for scRNA-seq cell clustering.",
+      "subcategory": "sr"
+    },
+    {
+      "id": "scsgc-2025",
+      "title": "Soft Graph Clustering for Single-cell RNA Sequencing Data",
+      "acronym": "scSGC",
+      "authors": "Ping Xu, Pengfei Wang, Zhiyuan Ning, Meng Xiao, Min Wu, and Yuanchun Zhou",
+      "year": 2025,
+      "venue": "BMC Bioinformatics",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://doi.org/10.1186/s12859-025-06231-z",
+      "code": "https://github.com/XPgogogo/scSGC",
+      "status": "peer-reviewed",
+      "note": "Combines soft graph representations and optimal transport for scRNA-seq clustering.",
+      "subcategory": "sr"
+    },
+    {
       "id": "spatial-hgnn-2024",
       "title": "Hypergraph Neural Networks Reveal Spatial Domains from Single-Cell Transcriptomics Data",
       "acronym": "",
@@ -732,6 +780,22 @@
       "note": "Uses LLM-generated names, descriptions, and centroids as complementary views for hierarchical text clustering."
     },
     {
+      "id": "scbig-2024",
+      "title": "scBiG for Representation Learning of Single-cell Gene Expression Data Based on Bipartite Graph Embedding",
+      "acronym": "scBiG",
+      "authors": "Ting Li, Kun Qian, Xiang Wang, Wei Vivian Li, and Hongwei Li",
+      "year": 2024,
+      "venue": "NAR Genomics and Bioinformatics",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://doi.org/10.1093/nargab/lqae004",
+      "code": "https://github.com/sldyns/scBiG",
+      "status": "peer-reviewed",
+      "note": "Learns cell and gene representations on a bipartite graph for downstream analysis including clustering.",
+      "subcategory": "sr"
+    },
+    {
       "id": "clusterllm-2023",
       "title": "ClusterLLM: Large Language Models as a Guide for Text Clustering",
       "acronym": "ClusterLLM",
@@ -775,6 +839,22 @@
       "code": "https://doi.org/10.5281/zenodo.7306504",
       "status": "peer-reviewed",
       "note": "Combines multiple clustering objectives to identify cell types from single-cell transcriptomics."
+    },
+    {
+      "id": "scgpcl-2023",
+      "title": "Deep Single-cell RNA-seq Data Clustering with Graph Prototypical Contrastive Learning",
+      "acronym": "scGPCL",
+      "authors": "Junseok Lee, Sungwon Kim, Dongmin Hyun, Namkyeong Lee, Yejin Kim, and Chanyoung Park",
+      "year": 2023,
+      "venue": "Bioinformatics",
+      "tags": [
+        "BIO"
+      ],
+      "paper": "https://doi.org/10.1093/bioinformatics/btad342",
+      "code": "https://github.com/Junseok0207/scGPCL",
+      "status": "peer-reviewed",
+      "note": "Uses a cell-gene graph and prototypical contrastive learning for scRNA-seq clustering.",
+      "subcategory": "sr"
     },
     {
       "id": "grac-2021",

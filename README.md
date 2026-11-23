@@ -4,7 +4,7 @@
 
 A curated, cross-disciplinary reading map for **biological clustering**, **hypergraph clustering**, and **LLM-enhanced clustering**.
 
-> **Snapshot:** 2026-09-03 · **Catalog:** 52 papers · [中文说明](README_zh-CN.md)
+> **Snapshot:** 2026-11-23 · **Catalog:** 57 papers · [中文说明](README_zh-CN.md)
 
 ## Topics and tags
 
@@ -13,6 +13,8 @@ A curated, cross-disciplinary reading map for **biological clustering**, **hyper
 | `BIO` | Biological clustering | Clustering biological or medical data is a central task, such as single-cell, spatial transcriptomics, multi-omics, or clinical phenotyping. |
 | `HG` | Hypergraph clustering | Hypergraphs are central to the clustering formulation, representation, objective, or algorithm. |
 | `LLM` | LLM-enhanced clustering | A generative large language model materially supplies representations, supervision, feedback, reasoning, or explanations for clustering. |
+
+The `BIO/sr` subcategory groups selected BIO papers; they remain included when filtering BIO.
 
 Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological clustering with a hypergraph method, while `[BIO+LLM]` denotes biological clustering enhanced by an LLM. See [the taxonomy](docs/TAXONOMY.md) for boundary cases.
 
@@ -38,6 +40,7 @@ Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological c
 - `[LLM]` [**LLM-CER** — In-context Clustering-based Entity Resolution with Large Language Models: A Design Space Exploration](https://doi.org/10.1145/3749170) — Jiajie Fu, Haitong Tang, Arijit Khan, Sharad Mehrotra, Xiangyu Ke, and Yunjun Gao. *SIGMOD*. [Paper](https://doi.org/10.1145/3749170)
 - `[LLM]` [**NILC: Discovering New Intents with LLM-assisted Clustering**](https://doi.org/10.1145/3773966.3777979) — Hongtao Wang, Renchi Yang, and Wenqing Lin. *WSDM*. [Paper](https://doi.org/10.1145/3773966.3777979)
 - `[LLM]` [**ComGPT: Detecting Local Community Structure with Large Language Models**](https://arxiv.org/abs/2408.06658) — Li Ni, Haowen Shen, Lin Mu, Yiwen Zhang, and Wenjian Luo. *IEEE TCSS*. [Paper](https://arxiv.org/abs/2408.06658)
+- `[BIO/sr]` [**scDEBGCL: A Deep Embedding Approach Based on Bipartite Graph Contrastive Learning for Single-cell RNA-seq Data**](https://doi.org/10.1186/s12915-026-02598-4) — Jing Wang, Delei Ke, Junfeng Xia, Ao Liu, Yansen Su, and Chun-Hou Zheng. *BMC Biology*. [Paper](https://doi.org/10.1186/s12915-026-02598-4) · [Code](https://zenodo.org/records/19028601)
 
 ### 2025
 
@@ -72,6 +75,8 @@ Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological c
 - `[LLM]` [**CS-Agent: LLM-based Community Search via Dual-agent Collaboration**](https://doi.org/10.1145/3746252.3761335) — Jiahao Hua, Long Yuan, Qingshuai Feng, Qiang Fan, and Shan Huang. *CIKM*. [Paper](https://doi.org/10.1145/3746252.3761335)
 - `[LLM]` [**CommLLM** — LLMs Between the Nodes: Community Discovery Beyond Vectors](https://arxiv.org/abs/2507.22955) — Ekta Gujral and Apurva Sinha. *CSIT*. [Paper](https://arxiv.org/abs/2507.22955)
 - `[LLM]` [**ICC** — In-Context Clustering with Large Language Models](https://arxiv.org/abs/2510.08466) — Ying Wang, Mengye Ren, and Andrew Gordon Wilson. *arXiv*. [Paper](https://arxiv.org/abs/2510.08466) · [Code](https://agenticlearning.ai/icc/)
+- `[BIO/sr]` [**DGCSG** — Differentiable Graph Clustering with Structural Grouping for Single-cell RNA-seq Data](https://doi.org/10.1093/bioinformatics/btaf347) — Xiaoqiang Yan, Shike Du, Quan Zou, and Zhen Tian. *Bioinformatics*. [Paper](https://doi.org/10.1093/bioinformatics/btaf347) · [Code](https://github.com/Xiaoqiang-Yan/DGCSG)
+- `[BIO/sr]` [**scSGC** — Soft Graph Clustering for Single-cell RNA Sequencing Data](https://doi.org/10.1186/s12859-025-06231-z) — Ping Xu, Pengfei Wang, Zhiyuan Ning, Meng Xiao, Min Wu, and Yuanchun Zhou. *BMC Bioinformatics*. [Paper](https://doi.org/10.1186/s12859-025-06231-z) · [Code](https://github.com/XPgogogo/scSGC)
 
 ### 2024
 
@@ -81,12 +86,14 @@ Tags are intentionally multi-label. For example, `[BIO+HG]` denotes biological c
 - `[LLM]` [**GCLR** — Large Language Model Guided Graph Clustering](https://openreview.net/forum?id=CLyhlb5DG5) — Puja Trivedi, Nurendra Choudhary, Eddie Huang, Vassilis N. Ioannidis, Karthik Subbian, and Danai Koutra. *LoG*. [Paper](https://openreview.net/forum?id=CLyhlb5DG5)
 - `[LLM]` [**LLMEdgeRefine: Enhancing Text Clustering with LLM-Based Boundary Point Refinement**](https://aclanthology.org/2024.emnlp-main.1025/) — Zijin Feng, Luyang Lin, Lingzhi Wang, Hong Cheng, and Kam-Fai Wong. *EMNLP*. [Paper](https://aclanthology.org/2024.emnlp-main.1025/)
 - `[LLM]` [**Improving Hierarchical Text Clustering with LLM-guided Multi-view Cluster Representation**](https://aclanthology.org/2024.emnlp-industry.54/) — Anup Pattnaik, Cijo George, Rishabh Kumar Tripathi, Sasanka Vutla, and Jithendra Vepa. *EMNLP Industry Track*. [Paper](https://aclanthology.org/2024.emnlp-industry.54/)
+- `[BIO/sr]` [**scBiG for Representation Learning of Single-cell Gene Expression Data Based on Bipartite Graph Embedding**](https://doi.org/10.1093/nargab/lqae004) — Ting Li, Kun Qian, Xiang Wang, Wei Vivian Li, and Hongwei Li. *NAR Genomics and Bioinformatics*. [Paper](https://doi.org/10.1093/nargab/lqae004) · [Code](https://github.com/sldyns/scBiG)
 
 ### 2023
 
 - `[LLM]` [**ClusterLLM: Large Language Models as a Guide for Text Clustering**](https://aclanthology.org/2023.emnlp-main.858/) — Yuwei Zhang, Zihan Wang, and Jingbo Shang. *EMNLP*. [Paper](https://aclanthology.org/2023.emnlp-main.858/) · [Code](https://github.com/zhang-yu-wei/ClusterLLM)
 - `[HG]` [**AHCKA** — Efficient and Effective Attributed Hypergraph Clustering via K-Nearest Neighbor Augmentation](https://doi.org/10.1145/3589261) — Yiran Li, Renchi Yang, and Jieming Shi. *SIGMOD*. [Paper](https://doi.org/10.1145/3589261) · [Code](https://github.com/CyanideCentral/AHCKA)
 - `[BIO]` [**MoClust: Identifying Cell Types from Single-Cell Transcriptomics Data Using Multi-Objective Clustering**](https://doi.org/10.1093/bioinformatics/btac736) — Musu Yuan, Liang Chen, and Minghua Deng. *Bioinformatics*. [Paper](https://doi.org/10.1093/bioinformatics/btac736) · [Code](https://doi.org/10.5281/zenodo.7306504)
+- `[BIO/sr]` [**scGPCL** — Deep Single-cell RNA-seq Data Clustering with Graph Prototypical Contrastive Learning](https://doi.org/10.1093/bioinformatics/btad342) — Junseok Lee, Sungwon Kim, Dongmin Hyun, Namkyeong Lee, Yejin Kim, and Chanyoung Park. *Bioinformatics*. [Paper](https://doi.org/10.1093/bioinformatics/btad342) · [Code](https://github.com/Junseok0207/scGPCL)
 
 ### 2021
 
@@ -127,3 +134,4 @@ python scripts/check_links.py
 ```
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the inclusion checklist. The repository is released under the [MIT License](LICENSE).
+
